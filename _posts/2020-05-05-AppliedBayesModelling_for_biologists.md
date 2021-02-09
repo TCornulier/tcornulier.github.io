@@ -31,11 +31,12 @@ Since our Masters-level introductory Bayesian course was withdrawn, I am regular
 * McElreath [book, slides, videos and code](https://xcelab.net/rm/statistical-rethinking/). Fantastic course.
 * Coursera <https://www.coursera.org/learn/bayesian> (No idea - will take a look one day - feedback appreciated)
 * CMR and Integrated Population Models: <https://github.com/oliviergimenez/IPMworkshop>. Highly recommended.
+* Materials for the [CONTAIN project](https://www.abdn.ac.uk/sbs/research/contain-latam.php) Bayesian population modelling workshop (Bariloche, 5-13 December 2019): [occupancy modelling, productivity modelling, capture-mark-recapture, and introduction to integrated population models](http://drive.google.com/drive/folders/1U8-17UCK1WojHGiNOHj8AeMI-8L-qBcQ)
 
 ## Books to get started
 If you want to learn by yourself, these books could be very good starting points:
 * “Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan” (by Kruschke: More general and up-to-date - includes Stan. Opinionated.)
-* “Introduction to WinBUGS for Ecologists” (by Kery and Schaub: book is a bit old now but still hugely relevant for ecologists)
+* “Introduction to WinBUGS for Ecologists” (by Kery and Schaub: book is a bit old now but hugely relevant for ecologists)
 
 ## Updates
 If you can think of other/better resources, please let me know. I'll try to update the list as come across new info.
