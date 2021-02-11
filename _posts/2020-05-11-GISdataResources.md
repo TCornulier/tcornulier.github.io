@@ -27,6 +27,10 @@ description: (Note to self, primarily)
 
 * **World Protected Areas** <https://www.protectedplanet.net/> 
 
+## Various
+
+* <https://opendatainception.io/>
+
 
 
 *If you can think of good resources that are missing here, please feel free to contribute!*
