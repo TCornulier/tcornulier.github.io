@@ -42,4 +42,3 @@ If you want to learn by yourself, these books could be very good starting points
 If you can think of other/better resources, please let me know. I'll try to update the list as come across new info.
 If you attend any of the courses above (or other ones), I’d appreciate any feedback.
 
-A good place to contact me is @TCornulier on twitter or by email (shouldn't be hard to find!)

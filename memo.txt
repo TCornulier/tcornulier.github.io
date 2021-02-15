@@ -1,3 +1,9 @@
 bundle exec jekyll serve
 
 http://localhost:4000
+
+
+# posts: 
+style: fill / border (choose one only)
+color: primary (blue) / secondary (medium grey) / success (green) / danger (red) / warning (yellow) / info (turquoise) / light (light grey) / dark (dark grey)
+# (ref: https://bootstrap-vue.org/docs/reference/color-variants/)
