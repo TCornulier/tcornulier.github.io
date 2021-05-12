@@ -3,7 +3,7 @@ title: Free GIS and remote sensing data sources
 tags: [GIS, Rstats, R, Spatial, Remote Sensing]
 style: fill
 color: secondary
-description: (Note to self, primarily)
+description: (Last updated 12/05/2021)
 ---
 
 # Free data sources
@@ -23,13 +23,27 @@ description: (Note to self, primarily)
 
 * [**Kalideos**](https://www.kalideos.fr/drupal/mapshup_page?_ro_origin=list&index=0&maxRecords=192&box=-1.777681,-21.401263,55.846431,49.071423): 0.5 m resolution for only 3 regions in metropolitan France + La Reunion . Has access to Pleiades and Landsat 6-7 at least. 
 
+### Habitat maps of Scotland (2019 and 2020)
+
+* [Announcement](https://www.space-intelligence.com/2021/04/01/weve-just-published-the-first-ever-scotland-wide-high-resolution-habitat-maps-for-free/)
+* [Online maps](https://www.space-intelligence.com/scotland-landcover/)
+* [Temporary repository](https://drive.google.com/drive/folders/1ELqOKwqk7S9qAU2EwsjfLVNkkThQRcwM)
+* [Future repository under Scot Gov license](https://spatialdata.gov.scot/)
+
 ## Shapefiles
 
 * **World Protected Areas** <https://www.protectedplanet.net/> 
+* **Public Scottish spatial data** <https://spatialdata.gov.scot/>
 
 ## Various
 
 * <https://opendatainception.io/>
+
+## Other
+
+* Tide time tables <https://www.tidetime.org/>
+
+* [Tide time tables for Aberdeen](https://www.tidetime.org/europe/united-kingdom/aberdeen-calendar.htm)
 
 
 
