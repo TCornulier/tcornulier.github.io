@@ -44,7 +44,7 @@ description: A small collection of apps I find very useful.
 
 ## Misc.
 
-* [**Where to watch birds in Scotland**](https://www.the-soc.org.uk/about-us/app#:~:text=Where%20to%20Watch%20Birds%20in%20Scotland%2C%20the%20Club's%20free%20mobile,by%20more%20than%2010%2C000%20users.): a good guide by the Scottish Ornithologists' Club (SOC).
+* [**Where to watch birds in Scotland**](https://www.the-soc.org.uk/about-us/app#:~:text=Where%20to%20Watch%20Birds%20in%20Scotland%2C%20the%20Club's%20free%20mobile,by%20more%20than%2010%2C000%20users.): a good guide by the Scottish Ornithologists' Club ([SOC](https://www.the-soc.org.uk/)).
 
 *If you can think of good resources that are missing here, please feel free to contribute!*
 
