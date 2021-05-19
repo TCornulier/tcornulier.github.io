@@ -38,6 +38,7 @@ description: (Last updated 12/05/2021)
 ## Various
 
 * <https://opendatainception.io/>
+* [Digimap / EDINA](https://digimap.edina.ac.uk/): a variety of Ordnance Survey, historical, geological, LiDAR, marine maps and spatial data available to UK Higher and Further Education institutions.
 
 ## Other
 
