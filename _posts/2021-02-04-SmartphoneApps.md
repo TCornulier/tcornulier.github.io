@@ -32,8 +32,8 @@ description: A small collection of apps I find very useful.
 
 ### Create own recording forms
 
-* **Epicollect5**: online / offline. Form to be created on web interface first. Fairly simple interface for simple to advanced forms.
-* **Google forms**: very simple interface for very basic forms.
+* **Epicollect5** app: online / offline recording. Form to be created on web interface first ([website](https://five.epicollect.net/)). Fairly simple interface for simple to more advanced forms.
+* **Google forms**: very simple interface for very basic forms. Online only.
 
 ## Navigation and mapping
 
@@ -42,6 +42,9 @@ description: A small collection of apps I find very useful.
 * **Maverick**: online / offline, lots of map backgrounds available. Limited number of waypoints available to record in free version.
 * **GPS status**
 
+## Misc.
+
+* [**Where to watch birds in Scotland**](https://www.the-soc.org.uk/about-us/app#:~:text=Where%20to%20Watch%20Birds%20in%20Scotland%2C%20the%20Club's%20free%20mobile,by%20more%20than%2010%2C000%20users.): a good guide by the Scottish Ornithologists' Club (SOC).
 
 *If you can think of good resources that are missing here, please feel free to contribute!*
 
