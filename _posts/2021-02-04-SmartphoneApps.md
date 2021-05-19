@@ -19,15 +19,15 @@ description: A small collection of apps I find very useful.
 
 ## ID
 
-* **Echometer touch**: companion app to echo meter bat recording device. Sonagram visualisation + automatic ID.
+* **Echometer touch**: companion app to echo meter bat recording device (one available in the University of Aberdeen zoology teaching pool). Sonagram visualisation + automatic ID.
 * **Seek**: automatic plant ID
-* **Plantnet**: automatic plant ID
-* **Merlin**: maps, visual ID guide and automatic bird sound ID by Cornell Lab of Ornithology. Covers all birds of the World.
+* [**Plantnet**](https://plantnet.org/en/): automatic plant ID (as with everything else, treat automatic plant ID with great caution and scepticism!)
+* [**Merlin**](https://merlin.allaboutbirds.org/): maps, visual ID guide and automatic bird sound ID by Cornell Lab of Ornithology. Covers all birds of the World.
 
 ## Monitoring
 ### Existing programs
 
-* **eBird**
+* **eBird** app and [eBird website](https://ebird.org/home)
 * **iNaturalist**
 
 ### Create own recording forms
