@@ -19,7 +19,7 @@ description: A small collection of apps I find very useful.
 * **Amazing MP3 Recorder**: good for sound recording (not just in MP3, also does high quality Wav). Best with an external microphone.
 * **RecForge II**: good for sound recording (also does high quality Wav). Best with an external microphone.
 
-## ID
+## taxonomic ID
 
 * **Echometer touch**: companion app to echo meter bat recording device (one available in the University of Aberdeen zoology teaching pool). Sonagram visualisation + automatic ID.
 * **Seek**: automatic plant ID
