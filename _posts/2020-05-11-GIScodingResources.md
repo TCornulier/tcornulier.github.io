@@ -48,7 +48,7 @@ description: (Note to self, primarily). Updated 11/02/2022
 * **Remote Sensing Image Classification in R** <https://link.springer.com/book/10.1007/978-981-13-8012-9>
 
 
-Thanks to [@DeonRoos88] for contributions
+Thanks to [@DeonRoos88]<https://twitter.com/DeonRoos88> for contributions
 
 *If you can think of good resources that are missing here, please feel free to contribute!*
 
