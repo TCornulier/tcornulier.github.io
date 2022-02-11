@@ -10,7 +10,7 @@ description: (Note to self, primarily). Updated 11/02/2022
 
 * **Tools for Downloading, Customizing, and Processing Time Series of Satellite Images from Landsat, MODIS, and Sentinel** <https://github.com/spatialstatisticsupna/RGISTools>
 
-* `geodata`: Package for downloading geographic data (climate, elevation, soil, species occurrence, administrative boundaries)
+* `geodata`: Package for downloading geographic data (climate, elevation, soil, species occurrence, administrative boundaries) <https://github.com/rspatial/geodata>
 
 # R packages for specific products
 
@@ -48,7 +48,7 @@ description: (Note to self, primarily). Updated 11/02/2022
 * **Remote Sensing Image Classification in R** <https://link.springer.com/book/10.1007/978-981-13-8012-9>
 
 
-
+Thanks to [@DeonRoos88] for contributions
 
 *If you can think of good resources that are missing here, please feel free to contribute!*
 
