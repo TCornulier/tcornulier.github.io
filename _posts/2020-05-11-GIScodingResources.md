@@ -3,23 +3,24 @@ title: R coding resources for GIS and remote sensing
 tags: [GIS, Rstats, R, Spatial, Remote Sensing, Training]
 style: fill
 color: info
-description: (Note to self, primarily)
+description: (Note to self, primarily). Updated 11/02/2022
 ---
 
 # General R packages
 
 * **Tools for Downloading, Customizing, and Processing Time Series of Satellite Images from Landsat, MODIS, and Sentinel** <https://github.com/spatialstatisticsupna/RGISTools>
 
+* `geodata`: Package for downloading geographic data (climate, elevation, soil, species occurrence, administrative boundaries)
+
 # R packages for specific products
 
-* **NDVI / MODIS**: <https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.1273> (possibly made obsolete by package RGISTools?)
+* **NDVI / MODIS**: <https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.1273> (possibly made obsolete by package `RGISTools`?)
 
 * **Landsat processing** <https://www.jstatsoft.org/htaccess.php?volume=43&type=i&issue=04&paper=true>
 
 * **Two alternative packages for accessing more recent landsat 8** <https://github.com/atlanhq/rLandsat> and <https://github.com/Terradue/rLandsat8> 
 
-* **Sentinel data** in case useful (much higher resolution but shorter time span). <https://www.researchgate.net/post/Is_there_a_R_function_to_download_Sentinel_images> (possibly made obsolete by package RGISTools?)
-
+* **Sentinel data** in case useful (much higher resolution but shorter time span). <https://www.researchgate.net/post/Is_there_a_R_function_to_download_Sentinel_images> (possibly made obsolete by package `RGISTools`?)
 
 # R packages for Data Analysis
 

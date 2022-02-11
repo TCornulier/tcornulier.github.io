@@ -3,7 +3,7 @@ title: List of Bayesian statistics courses for ecologists / biologists
 tags: [Bayesian, Statistics, R, Training]
 style: fill
 color: dark
-description: Contributions welcome.
+description: Updated 11/02/2022. Contributions welcome.
 ---
 
 Since our Masters-level introductory Bayesian course was withdrawn, I am regularly asked by MSc / PhD students what options exist to get some training on Bayesian analysis.
@@ -26,6 +26,8 @@ Since our Masters-level introductory Bayesian course was withdrawn, I am regular
 * 2-days Introduction to Bayesian statistics using BUGS: <https://www.mrc-bsu.cam.ac.uk/training/short-courses/bayescourse/>. Very good feedback from a PhD student I know. Not for complete stats beginners - do come prepared and brush up your basic probability and LM/GLM theory & practice, to make the most of the course.
 
 * This last one is gone, but hopefully will repeat: [RSS](https://events.rss.org.uk/rss/frontend/reg/thome.csp?pageID=74585&eventID=241&language=1&CSPCHD=000001000000vjOeTW6QwH8e0KfaDh0IwWEjM8Q0HVUiAU5zkW). Even though it says “intermediate”, it looks like the right level for a newcomer to Bayesian stats, based on the listed contents. Sounds like they mean more like “intermediate stats level” rather than “intermediate Bayesian statistics”, so I expect it should suit students who regularly work with R and understand the basics of GLMs or MEM, for example. Contact them if unsure!
+
+*  Colorado State University - 10 day course “Bayesian Models for Ecological Data” 06/06/2022-16/06/2022 covering basic principles of Bayesian models. No tuition. Travel costs, lodging & meals covered. <https://nrel.colostate.edu/projects/bayes>. **US only**.
 
 ## Online courses:
 * McElreath [book, slides, videos and code](https://xcelab.net/rm/statistical-rethinking/). Fantastic course.
