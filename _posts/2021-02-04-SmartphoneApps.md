@@ -3,7 +3,7 @@ title: Smartphone apps for ecological fieldwork
 tags: [Fieldwork, Smartphone, Citizen Science, Notes]
 style: fill
 color: danger
-description: A small collection of apps I find very useful.
+description: A small collection of apps I find very useful (last updated 23/05/2022).
 ---
 
 ## Random sampling
