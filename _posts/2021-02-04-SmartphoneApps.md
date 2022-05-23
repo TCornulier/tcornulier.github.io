@@ -12,14 +12,21 @@ description: A small collection of apps I find very useful.
 
 ## Measurement and logging
 
+### Physical environment
 * **Phyphox**: view and log all sensor measurements from your phone in real time: temperature, light, sound, accelerometer, barometer... Also provides a wealth of additional sensor-based tools or learning.
 * **Physics Toolbox Suite**: view and log all sensor measurements from your phone in real time: temperature, light, sound, accelerometer, barometer...
+
+### Plant traits or habitat
 * [**Plant Screen Mobile**](https://fz-juelich.de/ibg/ibg-2/EN/methods/Plant_Screen_Mobile_PSM/psm_node.html): Leaf area index and more. Open access paper: <https://plantmethods.biomedcentral.com/articles/10.1186/s13007-019-0386-z>.
-* [**LeafByte**](https://zoegp.science/leafbyte): for measuring herbivory. Open access supporting paper: <https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13340>.
+* [**LeafByte**](https://zoegp.science/leafbyte): for measuring herbivory and leaf area. Open access supporting paper: <https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13340>.
+* [**EasyLeafArea (Android)**](https://play.google.com/store/apps/details?id=com.heaslon.EasyLeafArea&gl=US): for measuring leaf area with a scale reference on the picture.
+* [**CanopyCapture**](https://nikp29.github.io/CanopyCapture/): for measuring canopy cover (replaces a densiometer).
+
+### Sound recording
 * **Amazing MP3 Recorder**: good for sound recording (not just in MP3, also does high quality Wav). Best with an external microphone.
 * **RecForge II**: good for sound recording (also does high quality Wav). Best with an external microphone.
 
-## taxonomic ID
+## Taxonomic ID
 
 * **Echometer touch**: companion app to echo meter bat recording device (one available in the University of Aberdeen zoology teaching pool). Sonagram visualisation + automatic ID.
 * **Seek**: automatic plant ID
