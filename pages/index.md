@@ -4,7 +4,7 @@ permalink: /
 ---
 
 ***
-A complement to my [University of Aberdeen webpage](https://www.abdn.ac.uk/sbs/people/profiles/cornulier) for Stats and R.
+A complement to my [BioSS webpage](https://www.bioss.ac.uk/people/thomas.html) for Stats and R.
 
 ***
 
