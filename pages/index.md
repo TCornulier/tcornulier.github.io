@@ -4,7 +4,7 @@ permalink: /
 ---
 
 ***
-A complement to my [BioSS webpage](https://www.bioss.ac.uk/people/thomas.html) for Stats and R.
+A complement to my [BioSS webpage](https://www.bioss.ac.uk/people/tcornulier) for Stats and R.
 
 ***
 
