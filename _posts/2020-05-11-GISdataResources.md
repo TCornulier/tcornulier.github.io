@@ -39,11 +39,27 @@ description: (Last updated 12/05/2021)
 
 * [Digimap / EDINA](https://digimap.edina.ac.uk/): a variety of Ordnance Survey, historical, geological, LiDAR, marine maps and spatial data available to UK Higher and Further Education institutions.
 * <https://opendatainception.io/>
+* Geospatial <https://ropensci.org/packages/geospatial/>
+
+## Weather / climate
+
+### R-APIs
+* Stations data (Global Surface Summary Of the Day) <https://docs.ropensci.org/GSODR/>
+* **rnoaa** R package <https://docs.ropensci.org/rnoaa/> or <https://​github.com/​ropensci/​rnoaa/​>
+* gridded NOAA data <https://docs.ropensci.org/rerddap/>
+* NASA-POWER data <https://docs.ropensci.org/nasapower/>
+* CRU-CL data <https://docs.ropensci.org/getCRUCLdata/>
+
+### Data sources
+* [WorldClim](https://worldclim.org/data/monthlywth.html)
+* CEDA [CRU TS4.06](https://catalogue.ceda.ac.uk/uuid/e0b4e1e56c1c4460b796073a31366980)
+* NOAA grided data <https://psl.noaa.gov/data/gridded/index.html>
+* Misc. weather / climate data sources list on [StackExchange Opendata](https://opendata.stackexchange.com/questions/10154/sources-of-weather-data)
 
 ## Other
 
+* ROpenSci <https://ropensci.org/packages/data-access/>, including GBIF, eBird, iNaturalist, species traits, phylogenies, CITES, UICN
 * Tide time tables <https://www.tidetime.org/>
-
 * [Tide time tables for Aberdeen](https://www.tidetime.org/europe/united-kingdom/aberdeen-calendar.htm)
 
 
