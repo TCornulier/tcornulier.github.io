@@ -3,7 +3,7 @@ title: List of Bayesian statistics courses for ecologists / biologists
 tags: [Bayesian, Statistics, R, Training]
 style: fill
 color: dark
-description: Updated 11/02/2022. Contributions welcome.
+description: Updated 20/04/2023. Contributions welcome.
 ---
 
 Since our Masters-level introductory Bayesian course was withdrawn, I am regularly asked by MSc / PhD students what options exist to get some training on Bayesian analysis.
@@ -34,6 +34,7 @@ Since our Masters-level introductory Bayesian course was withdrawn, I am regular
 * Coursera <https://www.coursera.org/learn/bayesian> (No idea - will take a look one day - feedback appreciated)
 * CMR and Integrated Population Models: <https://github.com/oliviergimenez/IPMworkshop>. Highly recommended.
 * Materials for the [CONTAIN project](https://www.abdn.ac.uk/sbs/research/contain-latam.php) Bayesian population modelling workshop (Bariloche, 5-13 December 2019): [occupancy modelling, productivity modelling, capture-mark-recapture, and introduction to integrated population models](http://drive.google.com/drive/folders/1U8-17UCK1WojHGiNOHj8AeMI-8L-qBcQ)
+* Untested: Michael Franke's [online course materials](https://michael-franke.github.io/Bayesian-Regression/)
 
 ## Books to get started
 If you want to learn by yourself, these books could be very good starting points:
