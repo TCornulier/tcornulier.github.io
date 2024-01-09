@@ -12,6 +12,7 @@ Since our Masters-level introductory Bayesian course was withdrawn, I am regular
 (Focus is currently UK / EU / Rest of the World, in that order)
 
 ## Courses
+
 * [SMSTC](https://smstc.ac.uk/core_modules/modern_regression_bayesian_methods) (good, quite mathematical for biology students, from the feedback I got)
 
 * This one runs almost every year (I think, in different places each time):
@@ -30,6 +31,7 @@ Since our Masters-level introductory Bayesian course was withdrawn, I am regular
 *  Colorado State University - 10 day course “Bayesian Models for Ecological Data” 06/06/2022-16/06/2022 covering basic principles of Bayesian models. No tuition. Travel costs, lodging & meals covered. <https://nrel.colostate.edu/projects/bayes>. **US only**.
 
 ## Online courses:
+
 * McElreath [book, slides, videos and code](https://xcelab.net/rm/statistical-rethinking/). Fantastic course.
 * Coursera <https://www.coursera.org/learn/bayesian> (No idea - will take a look one day - feedback appreciated)
 * CMR and Integrated Population Models: <https://github.com/oliviergimenez/IPMworkshop>. Highly recommended.
@@ -37,11 +39,14 @@ Since our Masters-level introductory Bayesian course was withdrawn, I am regular
 * Untested: Michael Franke's [online course materials](https://michael-franke.github.io/Bayesian-Regression/)
 
 ## Books to get started
+
 If you want to learn by yourself, these books could be very good starting points:
+
 * “Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan” (by Kruschke: More general and up-to-date - includes Stan. Opinionated.)
 * “Introduction to WinBUGS for Ecologists” (by Kery and Schaub: book is a bit old now but hugely relevant for ecologists)
 
 ## Updates
+
 If you can think of other/better resources, please let me know. I'll try to update the list as come across new info.
 If you attend any of the courses above (or other ones), I’d appreciate any feedback.
 
