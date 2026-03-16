@@ -1,0 +1,178 @@
+---
+title: "Precision of binomial overdispersion estimate (simulation)"
+author: "Thomas Cornulier"
+date: "2024-10-24"
+output: 
+  html_document:
+    self_contained: yes
+---
+
+```{r setup, include= FALSE}
+knitr::opts_chunk$set(cache= TRUE, out.width = "100%")
+```
+
+```{r}
+# Print R version
+R.version.string
+```
+
+# Aims
+
+Here we'll be looking at the effect of the number of trials (binomial denominator) on the ability to estimate binomial overdispersion. A motivating example could be the unexplained variability due to analytical variability across samples, in an eDNA metabarcoding study.
+
+# Simulation functions
+
+```{r}
+library(mgcv)
+library(parallel)
+library(ggplot2)
+```
+
+## Data simulation function
+
+Assumes binomial data with:
+`nobs`= number of observations, 
+`trials`= number of trials per observation,
+`p`= probability of success per trial,
+`sd`= standard deviation of the between-sample normal error (on the logit scale).
+
+```{r}
+r_overbin<- function(nobs, trials, p, sd) {
+  # Convert p to logit scale
+  logit_p<- log(p / (1 - p))
+  # Add Gaussian error
+  logit_p_heterog<- rnorm(nobs, mean= logit_p, sd= sd)
+  # Convert back to probability scale
+  p_adj<- exp(logit_p_heterog) / (1 + exp(logit_p_heterog))
+  
+  # Simulate binomial data
+  return(rbinom(nobs, size= trials, prob= p_adj))
+}
+```
+
+Test it
+
+```{r}
+r_overbin(nobs= 10, trials= 30, p= 0.4, sd= 0.3)
+```
+
+(OK)
+
+## Model fit simulation function
+
+```{r}
+sim_overbin<- function(nobs, ntrials, p, sd, nsim) {
+  dispersion_params<- numeric(nsim)
+  obsID<- factor(1:nobs)
+
+  # simulate
+  for(i in 1:nsim) {
+    simulated_data<- r_overbin(nobs, ntrials, p, sd)
+    dat<- data.frame(success= simulated_data, ntrial= ntrials, obsID= obsID)
+    fit<- gamm(cbind(success, ntrial - success) ~ 1, random= list(obsID= ~ 1), family= binomial, verbosePQL= F, data= dat)
+    dispersion_params[i]<- as.numeric(VarCorr(fit$lme)[1, 2])
+    # summary(fit)$dispersion
+    cat(".")
+  }
+  
+  return(quantile(dispersion_params, c(0.1, 0.5, 0.9)))
+}
+```
+
+Test it
+
+```{r}
+sim_overbin(nobs= 10, ntrials= 30, p= 0.4, sd= 0.3, nsim= 3)
+```
+
+(OK)
+
+# Simulation experiment
+
+## Simulation parameters
+
+Assume:
+
+* sample sizes of either 50 or 500,
+* number of trials varying from 2 to 30,
+* probability of success p= 0.3,
+* overdispersion SD either 0.2 or 0.4, on the logit scale.
+
+We'll run 10000 simulations of each parameter combination for the smaller sample sizes and 1000 for the larger sample sizes.
+
+```{r}
+trial_seq<- c(2:5, seq(7, 15, by= 2), 20, 25, 30)
+sim_array<- rbind(
+	expand.grid(nobs= 50, ntrials= trial_seq, p= 0.3, sd= c(0.2, 0.4), nsim= 10),
+	expand.grid(nobs= 500, ntrials= trial_seq, p= 0.3, sd= c(0.2, 0.4), nsim= 10)
+	)
+```
+
+Visualizing overdispersion values of 0.2 and 0.4 (around p= 0.5):
+
+```{r, out.height = "60%", fig.cap= "Histograms of normal deviates around 0 (on the logit scale), back-transformed onto the probability scale. Thick vertical line shows mean probability, p= 0.5"}
+par(mfrow= c(1, 2))
+hist(plogis(rnorm(1e6, 0, 0.2)), breaks= (0:100)/100, xlim= c(0, 1), main= "SD= 0.2", freq= F)
+abline(v= 0.5, lwd= 2)
+hist(plogis(rnorm(1e6, 0, 0.4)), breaks= (0:100)/100, xlim= c(0, 1), main= "SD= 0.4", freq= F)
+abline(v= 0.5, lwd= 2)
+```
+
+## Results
+
+```{r, eval= T}
+# Setup the cluster
+num_cores<- 7
+cl <- makeCluster(num_cores)
+# Export the wrapper function and my_function to the cluster
+clusterExport(cl, c("r_overbin", "sim_overbin"))
+# run simulation in parallel
+tmp<- parApply(cl, sim_array, 1, function(x) {
+  require(mgcv)
+  sim_overbin(nobs= x[1], ntrials= x[2], p= x[3], sd= x[4], nsim= x[5])
+})
+
+stopCluster(cl)
+
+result<- cbind(sim_array, t(tmp))
+result$'True SD'<- factor(result$sd)
+result$'N obs'<- factor(result$nobs)
+
+save(results, "result.RData")
+load("result.RData")
+
+```
+
+```{r, fig.cap= "True and estimated overdispersion SD (dashed and plain lines), with 80% simulation envelopes."}
+
+ggplot(result, aes(x= ntrials, y= `50%`, col= `True SD`, fill= `True SD`)) +
+  geom_ribbon(aes(ymin= `10%`, ymax= `90%`), alpha= 0.2) +
+  geom_line(aes(y= sd), linetype= "dashed", linewidth= 1.2) +
+  geom_line(linewidth= 1.5) +
+  facet_wrap(vars(`True SD`, `N obs`), labeller = "label_both") +
+  labs(x= "Number of trials", y= "Estimated overdispersion (SD)")
+
+```
+
+* True overdispersion was underestimated in all situations except when both sample size and number of trials were large.
+* Minimum number of trials required to get a "reasonable" on-average estimate was quite high, e.g. at least 5 and probably 10-15 for for smaller sample sizes.
+* Considerable uncertainty at small sample sizes (e.g., 50).
+* Smaller overdispersion harder to estimate precisely.
+
+
+## In case wanting to run simulations not in parallel
+
+```{r}
+# tmp<- apply(sim_array, 1, function(x){
+#   sim_overbin(nobs= x[1], ntrials= x[2], p= x[3], sd= x[4], nsim= x[5])
+# })
+# result<- cbind(sim_array, t(tmp))
+# result$'True SD'<- factor(result$sd)
+
+# ggplot(result, aes(x= ntrials, y= `50%`, col= `True SD`, fill= `True SD`)) +
+#   geom_ribbon(aes(ymin= `2.5%`, ymax= `97.5%`), alpha= 0.2) +
+#   geom_line(aes(y= sd), linetype= "dashed", linewidth= 1.2) +
+#   geom_line(linewidth= 1.5) +
+#   facet_wrap(~ `True SD`) +
+#   labs(x= "Number of trials", y= "Estimated overdispersion (SD)")
+```
