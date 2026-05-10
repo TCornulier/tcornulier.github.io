@@ -37,6 +37,7 @@ description: (Last updated 09/01/2024)
 * Historic Environment Scotland data portal <http://portal.historicenvironment.scot/spatialdownloads/historiclanduseassessment>
 * National Records of Scotland postcode datasets <https://www.nrscotland.gov.uk/statistics-and-data/geography/nrs-postcode-extract>
 * Public Scottish spatial data <https://spatialdata.gov.scot/>
+* [Scottish National LiDAR Programme](https://remotesensingdata.gov.scot/data#/list?lidar/national-lidar-programme)
 
 ## Various
 
@@ -53,6 +54,7 @@ description: (Last updated 09/01/2024)
 * Free GIS data <http://freegisdata.rtwilson.com>
 * Diva GIS <http://www.diva-gis.org/gdata>
 * Geofabrik OpenStreetMap data extracts <http://download.geofabrik.de>
+* [Earthmover.io Arraylake](https://app.earthmover.io/marketplace)
 
 # Weather / climate
 
@@ -66,6 +68,7 @@ description: (Last updated 09/01/2024)
 
 ## Data sources
 
+* [Earthmover.io Arraylake](https://app.earthmover.io/marketplace)
 * [WorldClim](https://worldclim.org/data/monthlywth.html)
 * CEDA [CRU TS4.06](https://catalogue.ceda.ac.uk/uuid/e0b4e1e56c1c4460b796073a31366980)
 * NOAA grided data <https://psl.noaa.gov/data/gridded/index.html>
@@ -87,6 +90,7 @@ description: (Last updated 09/01/2024)
 * Office for National Statistics (UK) <http://geoportal.statistics.gov.uk>
 * EU data <https://ec.europa.eu/eurostat/web/main/data/database>
 * Awesome public datasets github repository <https://github.com/awesomedata/awesome-public-datasets>
+* [Earthmover.io Arraylake](https://app.earthmover.io/marketplace)
 
 
 *If you can think of good resources that are missing here, please feel free to contribute!*
