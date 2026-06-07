@@ -39,6 +39,10 @@ description: (Last updated 09/01/2024)
 * Public Scottish spatial data <https://spatialdata.gov.scot/>
 * [Scottish National LiDAR Programme](https://remotesensingdata.gov.scot/data#/list?lidar/national-lidar-programme)
 
+### Scotland & fringes
+
+* An R package to support reproducible preparation of environmental data for biodiversity modelling in the UK: [‘ukbioprepr'](https://doi.org/10.1002/ecog.08413)
+
 ## Various
 
 * [Digimap / EDINA](https://digimap.edina.ac.uk/): a variety of Ordnance Survey, historical, geological, LiDAR, marine maps and spatial data available to UK Higher and Further Education institutions.
