@@ -3,7 +3,7 @@ title: Open data sources
 tags: [GIS, Rstats, R, Spatial, Remote Sensing]
 style: fill
 color: secondary
-description: (Last updated 09/01/2024)
+description: (Last updated 05/09/2026)
 ---
 
 # Spatial
