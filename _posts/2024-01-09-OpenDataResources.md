@@ -59,6 +59,7 @@ description: (Last updated 09/01/2024)
 * Diva GIS <http://www.diva-gis.org/gdata>
 * Geofabrik OpenStreetMap data extracts <http://download.geofabrik.de>
 * [Earthmover.io Arraylake](https://app.earthmover.io/marketplace)
+* [Hub Ocean](https://www.hubocean.earth/): Global ocean data platform.
 
 # Weather / climate
 
@@ -82,6 +83,7 @@ description: (Last updated 09/01/2024)
 
 # Other specialist data
 
+* UKCEH/NERC [Flood and Drought Research Infrastructure (FDRI) platform](https://digital-platform.fdri.org.uk/): near real-time data on diverse hydrological variables from FDRI catchments in the Upper Severn, the Upper Tweed and the Chess, alongside UK-wide datasets and analytical tools. Also LiDAR data and tools.
 * ROpenSci <https://ropensci.org/packages/data-access/>, including GBIF, eBird, iNaturalist, species traits, phylogenies, CITES, UICN
 * Tide time tables <https://www.tidetime.org/>
 * [Tide time tables for Aberdeen](https://www.tidetime.org/europe/united-kingdom/aberdeen-calendar.htm)
